@@ -1,11 +1,11 @@
 {
-    "name": "ten-finger-typing",
-    "displayName": "ten-finger-typing",
+    "name": "ten-finger-typing-shortcuts",
+    "displayName": "ten-finger-typing-shortcuts",
     "description": "on parmak klavyesi - ten finger typing extension",
     "version": "0.0.1",
     "icon": "keyboard.png",
     "repository": "https://www.github.com/kaankarakoc42/ten-finger-typing",
-    "publisher": "mevlüt kaan karakoç",
+    "publisher": "mevltkaankarako",
     "engines": {
         "vscode": "^1.46.0"
     },
