@@ -1,0 +1,48 @@
+{
+    "name": "ten-finger-typing",
+    "displayName": "ten-finger-typing",
+    "description": "on parmak klavyesi - ten finger typing extension",
+    "version": "0.0.1",
+    "icon": "keyboard.png",
+    "repository": "https://www.github.com/kaankarakoc42/ten-finger-typing",
+    "publisher": "mevlüt kaan karakoç",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+.",
+                "command": "workbench.action.showCommands"
+            },
+            {
+                "key": "alt+i",
+                "command": "cursorUp",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+k",
+                "command": "cursorDown",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+j",
+                "command": "cursorLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+l",
+                "command": "cursorRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+s",
+                "command": "workbench.action.files.save",
+                "when": "textInputFocus"
+            }
+        ]
+    }
+}
